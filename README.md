@@ -1,5 +1,8 @@
 # SakuraCat 官方地址
-https://sakuracat.com
+
+* https://sakuracat.com
+
+
 这里是 SakuraCat 的官方地址发布页。
 
 我们恳请大家不要在中国大陆平台公开讨论 SakuraCat，也不要在微博、论坛评论区、视频评论区、小红书、规模较大的 QQ 群、微信群等公开区域发布我们的网址。
