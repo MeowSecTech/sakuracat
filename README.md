@@ -114,9 +114,6 @@
 | `sakuracat-cdn1.com` | `sakuracat-cdn2.com` |
 | `sakuracat-link.com` | `sakuracat-world.com` |
 
-> `1-sakuracat.com` 在部分地区存在 DNS 污染。
-
-
 ## 请低调分享
 
 这里是 SakuraCat 的官方地址发布页。
