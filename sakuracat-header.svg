@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">SakuraCat</title>
+  <desc id="desc">SakuraCat official address directory, with a soft pink sakura blossom.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0.7">
+      <stop offset="0" stop-color="#faf7f9"/>
+      <stop offset="1" stop-color="#fce4ec"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eeb1c7"/>
+      <stop offset="1" stop-color="#dc799e"/>
+    </linearGradient>
+    <path id="leaf" d="M0 0 C-58-28-65-94-21-123 L0-108 21-123 C65-94 58-28 0 0Z"/>
+    <clipPath id="frame"><rect width="1200" height="300" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" rx="24" fill="url(#background)"/>
+    <circle cx="1086" cy="52" r="232" fill="#fff" opacity=".28"/>
+    <circle cx="973" cy="170" r="173" fill="none" stroke="#e6a1b9" stroke-width="1" opacity=".45"/>
+    <circle cx="973" cy="170" r="150" fill="none" stroke="#e6a1b9" stroke-width="1" opacity=".35"/>
+    <g transform="translate(973 157)" fill="url(#petal)" opacity=".86">
+      <use href="#leaf"/>
+      <use href="#leaf" transform="rotate(72)"/>
+      <use href="#leaf" transform="rotate(144)"/>
+      <use href="#leaf" transform="rotate(216)"/>
+      <use href="#leaf" transform="rotate(288)"/>
+      <circle r="18" fill="#fff4f8"/>
+      <circle r="5" fill="#b85680"/>
+    </g>
+    <g fill="#cf7297" opacity=".45">
+      <ellipse cx="803" cy="58" rx="9" ry="18" transform="rotate(-36 803 58)"/>
+      <ellipse cx="1158" cy="220" rx="10" ry="20" transform="rotate(48 1158 220)"/>
+      <ellipse cx="755" cy="263" rx="7" ry="14" transform="rotate(34 755 263)"/>
+    </g>
+    <rect x="76" y="66" width="36" height="4" rx="2" fill="#cf7297"/>
+    <text x="71" y="183" fill="#322d37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="108" font-weight="700" letter-spacing="-5">SakuraCat</text>
+    <text x="77" y="232" fill="#866475" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="3.2">OFFICIAL ADDRESS DIRECTORY</text>
+  </g>
+</svg>

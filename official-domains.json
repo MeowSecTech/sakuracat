@@ -1,0 +1,944 @@
+{
+  "schema_version": 5,
+  "project": "SakuraCat",
+  "updated_on": "2026-10-12",
+  "source": "Cloudflare and NameSilo account inventories collected on 2026-10-11, alias association verified separately, and additional official ownership confirmed by the SakuraCat operator on 2026-10-12",
+  "account_inventory_checked_on": "2026-10-11",
+  "domain_count": 73,
+  "domain_groups": [
+    {
+      "id": "sakuracat_suffixes",
+      "title": "sakuracat. 各类后缀域名",
+      "domain_count": 34
+    },
+    {
+      "id": "hyphenated",
+      "title": "中国大陆访问优化域名",
+      "domain_count": 39,
+      "usage_note": "专门针对中国大陆访问优化，按官方确认的访问状态分为未被污染、被墙或 DNS 污染两组。请优先使用未被污染的推荐入口。",
+      "usage_note_source": "SakuraCat operator statement",
+      "access_groups": [
+        {
+          "id": "unpolluted",
+          "title": "未被污染 · 推荐使用",
+          "domain_count": 5,
+          "domains": [
+            "114514-sakuracat.com",
+            "sakuracat-cn1.com",
+            "sakuracat-cn2.com",
+            "c3-sakuracat.com",
+            "c4-sakuracat.com"
+          ]
+        },
+        {
+          "id": "blocked_or_dns_polluted",
+          "title": "被墙或 DNS 污染",
+          "domain_count": 34,
+          "domains": [
+            "1-sakuracat.com",
+            "2-sakuracat.com",
+            "c1-sakuracat.com",
+            "c2-sakuracat.com",
+            "sakura-cat-1.com",
+            "sakura-cat-2.com",
+            "sakura-cat-cdn1.com",
+            "sakura-cat-cdn3.com",
+            "sakura-cat.net",
+            "sakura-cat1.com",
+            "sakura-cat3.com",
+            "sakura-neko.com",
+            "sakuracat-001.com",
+            "sakuracat-002.com",
+            "sakuracat-003.com",
+            "sakuracat-004.com",
+            "sakuracat-01.com",
+            "sakuracat-02.com",
+            "sakuracat-1.com",
+            "sakuracat-2.com",
+            "sakuracat-3.com",
+            "sakuracat-4.com",
+            "sakuracat-a.com",
+            "sakuracat-b.com",
+            "sakuracat-boom.com",
+            "sakuracat-c.com",
+            "sakuracat-cdn001.com",
+            "sakuracat-cdn002.com",
+            "sakuracat-cdn01.com",
+            "sakuracat-cdn02.com",
+            "sakuracat-cdn1.com",
+            "sakuracat-cdn2.com",
+            "sakuracat-link.com",
+            "sakuracat-world.com"
+          ]
+        }
+      ],
+      "access_grouping_confirmed_on": "2026-10-12",
+      "independent_mainland_probe_performed": false
+    }
+  ],
+  "inventory_counts": {
+    "cloudflare": 59,
+    "namesilo": 63,
+    "both": 50,
+    "cloudflare_only": 9,
+    "namesilo_only": 13,
+    "operator_confirmation_only": 1
+  },
+  "scope": "Official root domains verified in account inventories or confirmed by the SakuraCat operator. Inventory sources describe where management was verified, not DNS hosting or migration state.",
+  "availability_note": "Inventory membership and Cloudflare activity do not guarantee website availability or business-function health.",
+  "mainland_recommendations": {
+    "confirmed_on": "2026-10-12",
+    "source": "SakuraCat operator statement",
+    "domains": [
+      "114514-sakuracat.com",
+      "sakuracat-cn1.com",
+      "sakuracat-cn2.com",
+      "c3-sakuracat.com",
+      "c4-sakuracat.com"
+    ],
+    "independent_mainland_probe_performed": false
+  },
+  "domains": [
+    {
+      "domain": "sakuracat.academy",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.best",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.click",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.club",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "sakuracat.college",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.com",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "cloudflare_status_observed": "活动",
+      "https_root_observed": {
+        "http_status": 200,
+        "sakuracat_marker": true
+      }
+    },
+    {
+      "domain": "sakuracat.earth",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.email",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.fans",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.guide",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.help",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.house",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.ink",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.io",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.land",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.link",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active",
+      "https_root_observed": {
+        "http_status": 200,
+        "sakuracat_marker": true
+      }
+    },
+    {
+      "domain": "sakuracat.me",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.men",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.network",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.one",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.ooo",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.pizza",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.place",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.rip",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.science",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.shop",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.space",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.store",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.tech",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.tools",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.top",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.vip",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.wiki",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "namesilo"
+      ],
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat.world",
+      "category": "brand_or_service",
+      "group": "sakuracat_suffixes",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "1-sakuracat.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "mainland_access_note": "部分地区存在 DNS 污染。",
+      "ownership_confirmation": {
+        "source": "SakuraCat operator statement",
+        "confirmed_on": "2026-10-12"
+      }
+    },
+    {
+      "domain": "114514-sakuracat.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "unpolluted",
+      "mainland_access_recommendation": {
+        "status": "direct_access",
+        "recommended": true,
+        "source": "SakuraCat operator statement",
+        "confirmed_on": "2026-10-12"
+      },
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "2-sakuracat.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "c1-sakuracat.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "c2-sakuracat.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "c3-sakuracat.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "unpolluted",
+      "mainland_access_recommendation": {
+        "status": "direct_access",
+        "recommended": true,
+        "source": "SakuraCat operator statement",
+        "confirmed_on": "2026-10-12"
+      },
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "c4-sakuracat.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "unpolluted",
+      "mainland_access_recommendation": {
+        "status": "direct_access",
+        "recommended": true,
+        "source": "SakuraCat operator statement",
+        "confirmed_on": "2026-10-12"
+      },
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakura-cat-1.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakura-cat-2.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakura-cat-cdn1.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "sakura-cat-cdn3.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "sakura-cat.net",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakura-cat1.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "sakura-cat3.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动"
+    },
+    {
+      "domain": "sakura-neko.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active",
+      "alias_association_verified": true,
+      "https_root_observed": {
+        "http_status": 200,
+        "sakuracat_marker": true
+      }
+    },
+    {
+      "domain": "sakuracat-001.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-002.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-003.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-004.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-01.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-02.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-1.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-2.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-3.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-4.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-a.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-b.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-boom.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-c.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cdn001.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cdn002.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cdn01.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cdn02.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cdn1.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cdn2.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cn1.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "unpolluted",
+      "mainland_access_recommendation": {
+        "status": "direct_access",
+        "recommended": true,
+        "source": "SakuraCat operator statement",
+        "confirmed_on": "2026-10-12"
+      },
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-cn2.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "unpolluted",
+      "mainland_access_recommendation": {
+        "status": "direct_access",
+        "recommended": true,
+        "source": "SakuraCat operator statement",
+        "confirmed_on": "2026-10-12"
+      },
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-link.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    },
+    {
+      "domain": "sakuracat-world.com",
+      "category": "brand_or_service",
+      "group": "hyphenated",
+      "inventory_sources": [
+        "cloudflare",
+        "namesilo"
+      ],
+      "mainland_access_group": "blocked_or_dns_polluted",
+      "cloudflare_status_observed": "活动",
+      "namesilo_registration_status_observed": "Active"
+    }
+  ]
+}
