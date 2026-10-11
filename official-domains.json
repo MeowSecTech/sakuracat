@@ -457,7 +457,6 @@
       "group": "hyphenated",
       "inventory_sources": [],
       "mainland_access_group": "blocked_or_dns_polluted",
-      "mainland_access_note": "部分地区存在 DNS 污染。",
       "ownership_confirmation": {
         "source": "SakuraCat operator statement",
         "confirmed_on": "2026-10-12"
