@@ -1,5 +1,7 @@
 <div align="center">
 
+<p><strong>简体中文</strong> &nbsp; · &nbsp; <a href="README.zh-TW.md">繁體中文</a> &nbsp; · &nbsp; <a href="README.en.md">English</a> &nbsp; · &nbsp; <a href="README.ja.md">日本語</a> &nbsp; · &nbsp; <a href="README.ko.md">한국어</a> &nbsp; · &nbsp; <a href="README.vi.md">Tiếng Việt</a></p>
+
 <img src="sakuracat-header.svg" alt="SakuraCat · Official Address Directory" width="100%" />
 
 <h1>SakuraCat 官方地址</h1>
